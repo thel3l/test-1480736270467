@@ -1,0 +1,67 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+.inputContainer {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.resultContainer {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.dashedBorder {
+    border: 2px dashed #ffffff;
+}
+.marginTop {
+    margin-top: 5px;
+}
+button {
+    width: 100%;
+}
+
+.invisible {
+    display: none;
+}
+
+#postalcoderow {
+    display: none;
+}
+/* Fonts */
+@font-face {
+  font-family: 'WhitneyHTF-Medium'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../../WhitneyHTF-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: 'WhitneyHTF-Light'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../../WhitneyHTF-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'WhitneyHTF-Black'; /* Got a bunch of other Whitney Styles in /fonts. Choose any keks*/
+  /*font-weight: bold;*/
+  src: url("../../WhitneyHTF-Black.otf") format("opentype");
+}
+a, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "WhitneyHTF-Light", Georgia, serif;
+}
+
+
+/*.fade {*/
+/*    transition: all 1s;*/
+/*}*/
+/*.fade.ng-enter {*/
+/*    opacity: 1;*/
+/*}*/
+/*.fade.ng-enter-active {*/
+/*    opacity: 1;*/
+/*}*/
+/*.fade.ng-leave {*/
+/*    opacity: 0*/
+/*}*/
+/*.fade.ng-leave-active {*/
+/*    opacity: 0*/
+/*}*/
